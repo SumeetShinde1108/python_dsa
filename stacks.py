@@ -6,7 +6,6 @@ stack.append('C')
 
 print("Stack: ", stack)
 
-
 top_element = stack[-1]
 print("Top element : ", top_element)
 
@@ -14,9 +13,7 @@ popped_element = stack.pop()
 print("Popped element : ", popped_element)
 
 print("Stack after popping: ", stack)
-
 print("isEmpty: ", not bool(stack))
-
 print("Size: ", len(stack))
 
 
@@ -42,6 +39,7 @@ class Stack:
         if self.isEmpty():
             print("Empty Stack")
         return self.stack[-1]
+
 
 mystack = Stack()
 mystack.push('A')
